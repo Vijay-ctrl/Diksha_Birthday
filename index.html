@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Happy Birthday Diksha!</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <!-- Background music -->
+   <audio id="bg-music" loop>
+      <source src="song/1.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+   </audio>
+
+   <!-- Music control button -->
+   <button id="music-btn">Play Music</button>
+
+   <!-- Floating hearts -->
+   <div id="hearts"></div>
+
+   <!-- Balloons -->
+   <div id="balloons"></div>
+
+   <!-- Fireworks -->
+   <canvas id="fireworks"></canvas>
+
+   <div class="container">
+      <!-- Typewriter text -->
+      <h1 id="typewriter"></h1>
+
+      <!-- Pinterest-style slideshow -->
+      <div class="pinterest-frame">
+         <div class="slideshow">
+            <div class="slide-bg" id="slide-bg"></div>
+            <img class="slides" src="images/img1.jpg" alt="">
+            <img class="slides" src="images/img2.jpg" alt="">
+            <img class="slides" src="images/img3.jpg" alt="">
+            <img class="slides" src="images/img4.jpg" alt="">
+         </div>
+      </div>
+
+      <!-- Gift box -->
+      <div id="gift-box" onclick="openGift()">🎁 Click to open your surprise!</div>
+
+      <!-- Final message -->
+      <p id="final-message"></p>
+
+      <!-- Restart button -->
+      <button id="restart-btn">Back to Start</button>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
